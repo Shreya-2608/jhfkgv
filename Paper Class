@@ -1,0 +1,18 @@
+Class Paper{
+    constructor(x,y,width,heigth){
+        var options? = {
+            isStatic:false,
+            restitution:0.3,
+            friction:1.5,
+            density:1.2
+        }
+        ellipseMode(RADIUS);
+        this.body = Bodies.circle(x,y,width,heigth,options);
+        this.width = width;
+        this.heigth = heigth;
+        World.add(world,this.body);
+
+        if(keyCode === UP_ARROW){:85})
+        }
+    }
+};
